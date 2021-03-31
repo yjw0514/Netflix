@@ -26,3 +26,6 @@ imgNumPrev = imgNum;
 }
 
 var changeHero = setInterval(changeBg, 3000);
+
+
+// story_card animation
