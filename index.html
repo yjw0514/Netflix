@@ -43,135 +43,186 @@
         </section>
 
 
-        <!-- Feature -->
-        <section id="feature">
-            <!-- TV -->
-            <div class="tv_wrap">
-                <ul class="tv">
-                    <li class="tv_left">
-                        <h2 class="tv_title">TV로 즐기세요.</h2>
-                        <h3 class="tv_subtitle">스마트 TV, PlayStation, Xbox, Chromecast, Apple TV, 블루레이 플레이어 등 다양한 디바이스에서 시청하세요.</h3>
-                    </li>
-                    <li class="tv_right">
-                        <video class="tv_right_video" autoplay muted loop>
-                            <source src="video/video-tv.m4v" type="video/mp4">
-                        </video>
-                        <img class="tv_right_img" src="img/tv.png">
-                    </li>
-                </ul>
-            </div>
-        
+      <!-- Feature -->
 
-            <!-- OFFLINE -->
-            <div class="offline_wrap">
-                <ul class="offline">
-                    <li class="offline_left">
-                        <img class="offline_left_img" src="img/mobile-0819.jpg">
-                        <div class="offline_left_box">
-                            <img class="offline_left_box_img" src="img/boxshot.png" alt="">
-                            <div class="offline_left_box_text">
-                                <p>기묘한 이야기</p>
-                                <p>저장 중...</p>
-                            </div>
-                            <img class="offline_left_box_img_2" src="img/download-icon.gif">
-                        </div>
-                    </li>
-                    <li class="offline_right">
-                        <h2 class="offline_title">즐겨 보는 콘텐츠를 저장해 오프라인으로 시청하세요.</h2>
-                        <h3 class="offline_subtitle">간편하게 저장하고 빈틈없이 즐겨보세요.
-                        </h3>
-                    </li>
-                </ul>
-            </div>
+      <section id="feature">
+        <div class="tv_wrap">
+           <ul class="tv">
+              <li class="tv_left">
+                 <h2 class="tv_title">TV로 즐기세요.</h2>
+                 <h3 class="tv_subtitle">스마트 TV, PlayStation, Xbox, Chromecast, Apple TV, 블루레이 플레이어 등 다양한 디바이스에서 시청하세요.</h3>
+              </li>
+              <li class="tv_right">
+                 <video class="tv_right_video" autoplay muted loop>
+                    <source src="video/video-tv.m4v" type="video/mp4"> 
+                 </video>
+                 <img src="img/tv.png" class="tv_right_img">
+              </li>
+           </ul>
+        </div>
 
-            <!-- DEVICE -->
-            <div class="device_wrap">
-                <ul class="device">
-                    <li class="device_left">
-                        <h2 class="device_title">
-                            다양한 디바이스에서 시청하세요.
-                            </h2>
-                        <h3 class="device_subtitle">
-                            각종 영화와 TV 프로그램을 스마트폰, 태블릿, 노트북, TV에서 무제한으로 스트리밍하세요. 추가 요금이 전혀 없습니다.
-                            </h3>
-                    </li>
-                    <li class="device_right">
-                        <video class="device_right_video" autoplay muted loop>
-                            <source src="video/video-devices.m4v" type="video/mp4">
-                        </video>
-                        <img class="device_right_img" src="img/device-pile.png">
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="faq_wrap">
-                <h2 class="faq_title">자주 묻는 질문</h2>
-                <div class="faq_list">
-                    <ul class="faq">
-                        <li class="faq_q" onclick="faqOpen(0);">
-                            <div>
-                                <h4>넷플릭스란 무엇인가요?</h4>
-                                <svg viewBox="0 0 26 26" class="faq_q_svg" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
-                            </div>
-                            <p>넷플릭스는 각종 수상 경력에 빛나는 TV 프로그램, 영화, 애니메이션, 다큐멘터리 등 다양한 콘텐츠를 인터넷 연결이 가능한 수천 종의 디바이스에서 시청할 수 있는 스트리밍 서비스입니다.<br><br>
-
-                            저렴한 월 요금으로 일체의 광고 없이 원하는 시간에 원하는 만큼 즐길 수 있습니다. 무궁무진한 콘텐츠가 준비되어 있으며 매주 새로운 TV 프로그램과 영화가 제공됩니다.</p>
-                        </li>
-
-                        <li class="faq_q"  onclick="faqOpen(1)">
-                            <div>
-                                <h4>넷플릭스 요금은 얼마인가요?</h4>
-                                <svg id="thin-x" viewBox="0 0 26 26" class="faq_q_svg" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
-                            </div>
-                            <p>스마트폰, 태블릿, 스마트 TV, 노트북, 스트리밍 디바이스 등 다양한 디바이스에서 월정액 요금 하나로 넷플릭스를 시청하세요. 멤버십 요금은 월 9,500원부터 14,500원까지 다양합니다. 추가 비용이나 약정이 없습니다.</p>
-                        </li>
-                 
-                        <li class="faq_q" onclick="faqOpen(2)">
-                            <div>
-                                <h4>어디에서 시청할 수 있나요?</h4>
-                                <svg id="thin-x" viewBox="0 0 26 26" class="faq_q_svg" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
-                            </div>
-                            <p>다양한 디바이스에서 언제 어디서나 시청할 수 있습니다. 넷플릭스 계정으로 로그인하면 PC에서 netflix.com을 통해 바로 시청할 수 있으며, 인터넷이 연결되어 있고 넷플릭스 앱을 지원하는 디바이스(스마트 TV, 스마트폰, 태블릿, 스트리밍 미디어 플레이어, 게임 콘솔 등)에서도 언제든지 시청할 수 있습니다.<br><br>
-                            iOS, Android, Windows 10용 앱에서는 좋아하는 프로그램을 저장할 수도 있습니다. 저장 기능을 이용해 이동 중이나 인터넷에 연결할 수 없는 곳에서도 시청하세요. 넷플릭스는 어디서든 함께니까요.</p>
-                           
-                        </li>
-
-                        <li class="faq_q"  onclick="faqOpen(3)">
-                            <div>
-                                <h4>멤버십을 해지하려면 어떻게 하나요?</h4>
-                                <svg id="thin-x" viewBox="0 0 26 26" class="faq_q_svg" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
-                            </div>
-                            <p>넷플릭스는 부담 없이 간편합니다. 성가신 계약도, 약정도 없으니까요. 멤버십 해지도 온라인에서 클릭 두 번이면 완료할 수 있습니다. 해지 수수료도 없으니 원할 때 언제든 계정을 시작하거나 종료하세요.</p>
-                        </li>
-
-                        <li class="faq_q"  onclick="faqOpen(4)">
-                            <div>
-                                <h4>넷플릭스에서 어떤 콘텐츠를 시청할 수 있나요?</h4>
-                                <svg id="thin-x" viewBox="0 0 26 26" class="faq_q_svg" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
-                            </div>
-                            <p>넷플릭스는 장편 영화, 다큐멘터리, TV 프로그램, 애니메이션, 각종 상을 수상한 넷플릭스 오리지널 등 수많은 콘텐츠를 확보하고 있습니다. 마음에 드는 콘텐츠를 원하는 시간에 원하는 만큼 시청하세요.</p>   
-                        </li>
-                    
-                        <li class="faq_q"  onclick="faqOpen(5)">
-                            <div>
-                                <h4>무료 체험에 관해 자세히 알 수 있을까요?</h4>
-                                <svg id="thin-x" viewBox="0 0 26 26" class="faq_q_svg" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
-                            </div>
-                            <p>넷플릭스는 장편 영화, 다큐멘터리, TV 프로그램, 애니메이션, 각종 상을 수상한 넷플릭스 오리지널 등 수많은 콘텐츠를 확보하고 있습니다. 마음에 드는 콘텐츠를 원하는 시간에 원하는 만큼 시청하세요.</p>                          
-                        </li>
-                    </ul>
-                </div>
-                <p class="email_text">시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
-                <form class="email_form" action="">
-                    <div class="email_wrap_2">
-                        <input type="email" name="user_id" class="email_input" placeholder="이메일 주소">
-                        <button class="email_btn">30일 무료 체험</button>
+        <div class="offline_wrap">
+           <ul class="offline">
+              <li class="offline_left">
+                 <img class="offline_left_img" src="img/mobile-0819.jpg" >
+                 <div class="offline_left_box">
+                    <img src="img/boxshot.png" class="offline_left_box_img">
+                    <div class="offline_left_box_text">
+                       <p>기묘한 이야기</p>
+                       <p>저장중...</p>
                     </div>
-                </form>
-                
-            
+                    <img src="img/download-icon.gif" class="offline_left_box_img2">
+                 </div>
+              </li>
+              <li class="offline_right">
+                 <h2 class="offline_title">
+                    즐겨 보는 콘텐츠를 저장해<br>오프라인으로 시청하세요.
+                 </h2>
+                 <h3 class="offline_subtitle">
+                    간편하게 저장하고 빈틈없이 즐겨보세요.
+                 </h3>
+              </li>
+           </ul>
+        </div>
+
+        <div class="device_wrap">
+           <ul class="device">
+              <li class="device_left">
+                 <h2 class="device_title">다양한 디바이스에서 시청하세요.</h2>
+                 <h3 class="device_subtitle">각종 영화와 TV 프로그램을 스마트폰, 태블릿, 노트북, TV에서 무제한으로 스트리밍하세요. 추가 요금이 전혀 없습니다.</h3>
+              </li>
+              <li class="device_right">
+                 <video class="device_right_video" autoplay muted loop>
+                    <source src="video/video-devices.m4v" type="video/mp4"> 
+                 </video>
+                 <img src="img/device-pile.png" class="device_right_img">
+              </li>
+           </ul>
+        </div>
+     </section>
+
+        <!-- FAQ -->
+
+      <section id="faq">
+        <div class="faq_wrap">
+           <h2 class="faq_title">자주 묻는 질문</h2>
+           <ul class="faq_ul">
+              <li class="faq_li" onclick="accOpen(0)">
+                 <h3 class="faq_q">
+                    <span class="faq_q_title">넷플릭스란 무엇인가요?</span>
+                    <img class="faq_q_btn" src="img/plus.svg" >
+                 </h3>
+                 <h4 class="faq_a">
+                    넷플릭스는 각종 수상 경력에 빛나는 TV 프로그램, 영화, 애니메이션, 다큐멘터리 등 다양한 콘텐츠를 인터넷 연결이 가능한 수천 종의 디바이스에서 시청할 수 있는 스트리밍 서비스입니다.<br><br>
+                    저렴한 월 요금으로 일체의 광고 없이 원하는 시간에 원하는 만큼 즐길 수 있습니다. 무궁무진한 콘텐츠가 준비되어 있으며 매주 새로운 TV 프로그램과 영화가 제공됩니다.
+                 </h4>
+              </li>
+              <li class="faq_li" onclick="accOpen(1)">
+                 <h3 class="faq_q">
+                    <span class="faq_q_title">넷플릭스 요금은 얼마인가요?</span>
+                    <img class="faq_q_btn" src="img/plus.svg" >
+                 </h3>
+                 <h4 class="faq_a">
+                    스마트폰, 태블릿, 스마트 TV, 노트북, 스트리밍 디바이스 등 다양한 디바이스에서 월정액 요금 하나로 넷플릭스를 시청하세요. 멤버십 요금은 월 9,500원부터 14,500원까지 다양합니다. 추가 비용이나 약정이 없습니다.
+                 </h4>
+              </li>
+              <li class="faq_li" onclick="accOpen(2)">
+                 <h3 class="faq_q">
+                    <span class="faq_q_title">어디에서 시청할 수 있나요?</span>
+                    <img class="faq_q_btn" src="img/plus.svg" >
+                 </h3>
+                 <h4 class="faq_a">
+                    다양한 디바이스에서 언제 어디서나 시청할 수 있습니다. 넷플릭스 계정으로 로그인하면 PC에서 netflix.com을 통해 바로 시청할 수 있으며, 인터넷이 연결되어 있고 넷플릭스 앱을 지원하는 디바이스(스마트 TV, 스마트폰, 태블릿, 스트리밍 미디어 플레이어, 게임 콘솔 등)에서도 언제든지 시청할 수 있습니다.
+                    <br><br>
+                    iOS, Android, Windows 10용 앱에서는 좋아하는 프로그램을 저장할 수도 있습니다. 저장 기능을 이용해 이동 중이나 인터넷에 연결할 수 없는 곳에서도 시청하세요. 넷플릭스는 어디서든 함께니까요.
+                 </h4>
+              </li>
+              <li class="faq_li" onclick="accOpen(3)">
+                 <h3 class="faq_q">
+                    <span class="faq_q_title">멤버십을 해지하려면 어떻게 하나요?</span>
+                    <img class="faq_q_btn" src="img/plus.svg" >
+                 </h3>
+                 <h4 class="faq_a">
+                    넷플릭스는 부담 없이 간편합니다. 성가신 계약도, 약정도 없으니까요. 멤버십 해지도 온라인에서 클릭 두 번이면 완료할 수 있습니다. 해지 수수료도 없으니 원할 때 언제든 계정을 시작하거나 종료하세요.
+                 </h4>
+              </li>
+              <li class="faq_li" onclick="accOpen(4)">
+                 <h3 class="faq_q">
+                    <span class="faq_q_title">넷플릭스에서 어떤 콘텐츠를 시청할 수 있나요?</span>
+                    <img class="faq_q_btn" src="img/plus.svg" >
+                 </h3>
+                 <h4 class="faq_a">
+                    넷플릭스는 장편 영화, 다큐멘터리, TV 프로그램, 애니메이션, 각종 상을 수상한 넷플릭스 오리지널 등 수많은 콘텐츠를 확보하고 있습니다. 마음에 드는 콘텐츠를 원하는 시간에 원하는 만큼 시청하세요. 30일 무료 체험으로 넷플릭스의 무한한 콘텐츠 세상을 만나보세요.
+                 </h4>
+              </li>
+              <li class="faq_li" onclick="accOpen(5)">
+                 <h3 class="faq_q">
+                    <span class="faq_q_title">무료 체험에 관해 자세히 알 수 있을까요?</span>
+                    <img class="faq_q_btn" src="img/plus.svg" >
+                 </h3>
+                 <h4 class="faq_a">
+                    넷플릭스를 30일 동안 무료로 이용해 보세요. 마음에 드는 경우 계속 이용하시면 됩니다. 별도로 해지하지 않는 한, 멤버십이 자동으로 유지됩니다. 무료 체험 기간이 끝나기 전에 멤버십을 해지하면 요금이 청구되지 않습니다. 복잡한 계약, 약정, 해지 수수료가 없습니다. 언제든 온라인으로 해지하세요.
+                 </h4>
+              </li>
+           </ul>
+
+           <p class="faq_detail">시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
+
+           <form action="login.php">
+              <div class="email_wrap">
+                 <input type="email" name="user_id" class="hero_input"
+                 placeholder="이메일 주소">
+                 <button type="submit" class="hero_submit">30일 무료체험 &gt;</button>
+              </div>
+           </form>
+                  </div>
         </section>
     </main>
+    <footer>
+        <div class="footer_wrap">
+           <h4 class="footer_tel">질문이 있으신가요? 문의 전화: <a href="tel:00-308-321-0058">00-308-321-0058</a></h4>
+           <div class="footer_menu_wrap">
+  
+              <ul class="footer_menu">
+                 <li class="footer_menu_li"><a href="">자주 묻는 질문</a></li>
+                 <li class="footer_menu_li"><a href="">투자 정보(IR)</a></li>
+                 <li class="footer_menu_li"><a href="">개인정보</a></li>
+                 <li class="footer_menu_li"><a href="">속도 테스트</a></li>
+              </ul>
+              <ul class="footer_menu">
+                 <li class="footer_menu_li"><a href="">고객 센터</a></li>
+                 <li class="footer_menu_li"><a href="">입사 정보</a></li>
+                 <li class="footer_menu_li"><a href="">쿠키 설정</a></li>
+                 <li class="footer_menu_li"><a href="">법적 고지</a></li>
+              </ul>
+              <ul class="footer_menu">
+                 <li class="footer_menu_li"><a href="">계정</a></li>
+                 <li class="footer_menu_li"><a href="">Netflix 지원 디바이스</a></li>
+                 <li class="footer_menu_li"><a href="">회사 정보</a></li>
+                 <li class="footer_menu_li"><a href="">Netflix 오리지널</a></li>
+              </ul>
+              <ul class="footer_menu">
+                 <li class="footer_menu_li"><a href="">미디어 센터</a></li>
+                 <li class="footer_menu_li"><a href="">이용약관</a></li>
+                 <li class="footer_menu_li"><a href="">문의하기</a></li>
+              </ul>
+              <form id="language_form">
+                 <img src="img/globe.svg">
+                 <select id="language" name="language" >
+                    <option value="korean">한국어</option>
+                    <option value="english">English</option>
+                 </select>
+              </form>
+           </div>
+           <div class="footer_infor">
+              <p class="footer_brand">Netflix 대한민국</p>
+              <p class="foorter_contact">넷플릭스서비시스코리아 유한회사 | 통신판매업신고번호: 제2018-서울종로-0426호 |전화번호: <a href="tel:00-308-321-0058">00-308-321-0058</a> | 대표: 레지널드 숀 톰프슨</p>
+              <p class="footer_address">이메일 주소: korea@netflix.com | 주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161</p>
+              <p class="footer_etc">클라우드 호스팅: Amazon Web Services Inc. | <a href="https://www.ftc.go.kr/www/bizCommView.do?key=232&apv_perm_no=2018300016930200431&pageUnit=10&searchCnd=bup_nm&searchKrwd=%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&pageIndex=1">공정거래위원회 웹사이트 링크</a></p>
+           </div>
+           
+        </div>
+     </footer>
     <script src="js/index.js"></script>
 </body>
 </html>

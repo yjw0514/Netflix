@@ -28,36 +28,42 @@ imgNumPrev = imgNum;
 var changeHero = setInterval(changeBg, 5000);
 
 
-// faq
-let faqQ = document.querySelectorAll('.faq_q');
-let faqsvg = document.querySelectorAll('.faq_q_svg');
+// FAQ Accodion
 
-let faqopenstate = [];
+// 아코디온 메뉴 오픈 상태 변수
 
-for (let i=0; i<faqQ.length; i++) {
-    faqopenstate[i] = false;
+
+var faqLi = document.getElementsByClassName('faq_li');
+var faqBtn = document.getElementsByClassName('faq_q_btn');
+
+var faqOpenState = [];
+
+for (i=0; i<faqLi.length; i++) {
+   faqOpenState[i] = false;
 }
 
-function faqOpen(target) {
+function accOpen(target) {
 
-    for (let i=0; i<faqQ.length; i++ ) {
-        if (i != target) {
-            faqQ[i].style = "height: 80px;";
-            faqsvg[i].style = "transform: rotate(45deg);";
-            faqopenstate[i] = false;
-        }
-    }
+   for (i=0; i<faqLi.length; i++) {
 
-    if (faqopenstate[target]) {
-        faqQ[target].style = "height: 80px;";
-        faqsvg[target].style = "transform: rotate(45deg);";
-        faqopenstate[target] = false;
-    }
+      if ( target != i) { 
+         faqLi[i].style = "max-height:60px;";
+         faqBtn[i].style = "transform:rotate(0deg);";
+         faqOpenState[i] = false;
+      }
+   }
 
-    else {
-        faqQ[target].style = "max-height: 500px;";
-        faqsvg[target].style = "transform: rotate(90deg);";
-        faqopenstate[target] = true;
-    }
+   if (faqOpenState[target] == true) {
+
+         faqLi[target].style = "max-height:60px;";
+         faqBtn[target].style = "transform:rotate(0deg);";
+         faqOpenState[target] = false;
+   } else
+      {
+         faqLi[target].style = "max-height:600px;"; 
+         faqBtn[target].style = "transform:rotate(45deg);";
+         faqOpenState[target] = true;
+
+      }
+
 }
-
