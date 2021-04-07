@@ -67,3 +67,14 @@ function accOpen(target) {
       }
 
 }
+
+// footer language select
+function languageChange() {
+
+   if (document.getElementById('language').value == "english") {
+   document.location = "https://www.netflix.com/kr-en/";
+   }
+   else {
+   document.location = "https://www.netflix.com/kr/"
+   }
+}

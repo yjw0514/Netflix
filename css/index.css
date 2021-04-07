@@ -215,6 +215,10 @@ footer { width: 100%; padding: 0 40px;}
 #language { width: 80px; height: 30px; background-color: rgb(0,0,0); color:rgb(255,255,255); border: none; appearance: none; -moz-appearance: none;
     -webkit-appearance: none;}
 
+#language:focus {
+    outline: 0;
+}
+
 #language_form img {width: 16px;  vertical-align: middle; margin: 0 10px 0 0;}
 
 .footer_brand { padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.4); }
